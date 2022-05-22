@@ -1,17 +1,19 @@
 import React from 'react'
 import styles from '../../src/styles.css';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 export default function Navbar() {
   return (
     <div className='nav-container'>
         <ul className='nav'>
             <div>
-              <Link to='/'><li>Logo</li></Link>
+              <NavLink to='/'><li>Logo</li></NavLink>
             </div>
             <div>
-                <Link to='/about'><li>About Developer</li></Link>
-                <Link to='/behind-the-scenes'><li>Behind The Scenes</li></Link>
+                <NavLink to='/about'><li>About Developer</li></NavLink>
+                <NavLink to='/behind-the-scenes'><li>Behind The Scenes</li></NavLink>
             </div>
         </ul>
     </div>
