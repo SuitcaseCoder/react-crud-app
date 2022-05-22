@@ -17,6 +17,13 @@ The page will reload when you make changes.\
 ---
 
 # Notes for me:
+FYI - I definitely used [this](https://www.freecodecamp.org/news/react-crud-app-how-to-create-a-book-management-app-from-scratch/) tutorial from FreeCodeCamp
+
+#### Additional Resources used:
+- [freecodecamp crud blog](https://www.freecodecamp.org/news/react-crud-app-how-to-create-a-book-management-app-from-scratch/)
+- [react-router tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-routes)
+- bits and pieces from the [official React Documentation](https://reactjs.org/)
+
 
 ### Splash Page
  - 1. Created two folders `components` and `pages`
