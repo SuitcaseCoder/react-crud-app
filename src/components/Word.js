@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Word = ({
     id,
@@ -9,7 +10,13 @@ const Word = ({
     date
 }) => {
 
-    console.log(id, actualWord, article);
+    let navigate = useNavigate();
+
+    const handleEdit = (id) => {
+        alert("edit clicked. id: ", id);
+        navigate(`/edit-word/${id}`)
+
+    }
 
     return (
         <div>
@@ -20,7 +27,7 @@ const Word = ({
                 <p>{definition}</p>
                 <p>{sentence}</p>
             </div>
-            <button>edit</button>
+            <button onClick={() => {handleEdit(id)}}>edit</button>
             <button>delete</button>
         </div>
     )
