@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import useLocalStorage from '../hooks/useLocalStorage';
 import About from '../pages/About';
 import BTS from '../pages/BTS';
 import Dashboard from '../pages/Dashboard';
@@ -10,7 +11,7 @@ import Navbar from '../components/Navbar';
 import Splash from '../pages/Splash';
 
 const AppRouter = () => {
-  const [words, setWords] = useState([]);
+  const [words, setWords] = useLocalStorage('words', []);
 
     return(
     <BrowserRouter>

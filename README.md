@@ -24,6 +24,7 @@ FYI - I definitely used [this](https://www.freecodecamp.org/news/react-crud-app-
 - [react-router tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-routes)
 - bits and pieces from the [official React Documentation](https://reactjs.org/)
 - how to pass props in React-Router v6, thanks [stack overflow](https://stackoverflow.com/questions/70443591/how-to-pass-props-using-element-in-react-router-v6)
+- [using localStorage hooks](https://designcode.io/react-hooks-handbook-uselocalstorage-hook)
 
 
 ### Splash Page
@@ -56,3 +57,7 @@ FYI - I definitely used [this](https://www.freecodecamp.org/news/react-crud-app-
   - -  saves the input values in an array to make sure that they'v all been filled 
   - - if all fields have been filled, define the word with those values
   - - pass the newly added word to the `handleSubmit` that was passed in from the `AddWord` component, that way we can use this same form for add, edit, and delete
+
+
+### Rendering Vocab List
+ - 1. 
