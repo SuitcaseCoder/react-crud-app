@@ -33,3 +33,18 @@ The page will reload when you make changes.\
  - 2. Imported `{ BrowswerRouter }` in my index.js as per [these](https://reactrouter.com/docs/en/v6/getting-started/tutorial#connect-the-url) instructions
  - 3. Added links to my navbar by importing `{ Link }` into the navbar
  - 4. Told my react-router which paths lead to which components (read more [here](https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-routes)) in Index.js
+
+ ### Add Word
+  - 1. Created `Form`, `AddWord`, and `VocabList` components
+  - 2. In the `Form` component:
+   - - Rendered a `<form>`, each `input` had a `name` and `value` attribute (this is important!), and of course a `button`
+   - - Each input also had a `onChange={handleInputChange}` attribute
+   - - - the `handleInputChange` function was then added to the `Form` component __above__ the `render` method
+   - - - the `button` had a `type="submit` attribute and the `form` had a `onSubmit={handleSubmit}` attr. 
+ - 3. The `handleInputChange`:
+  - - grabbed the `name` and `value` values by destructuring those values from the target event: `const { name, value } = e.target;`
+  - - then using the `setWord` method we created in the hook, we set the word to whatever the user inputs
+ - 4. The `handleSubmit`:
+  - -  saves the input values in an array to make sure that they'v all been filled 
+  - - if all fields have been filled, define the word with those values
+  - - pass the newly added word to the `handleSubmit` that was passed in from the `AddWord` component, that way we can use this same form for add, edit, and delete
