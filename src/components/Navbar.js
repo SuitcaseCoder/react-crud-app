@@ -14,6 +14,7 @@ export default function Navbar() {
             <div>
                 <NavLink to='/about'><li>About Developer</li></NavLink>
                 <NavLink to='/behind-the-scenes'><li>Behind The Scenes</li></NavLink>
+                <NavLink to='/dashboard'><li>Vocabulary List</li></NavLink>
             </div>
         </ul>
     </div>
