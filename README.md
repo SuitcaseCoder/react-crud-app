@@ -25,6 +25,7 @@ FYI - I definitely used [this](https://www.freecodecamp.org/news/react-crud-app-
 - bits and pieces from the [official React Documentation](https://reactjs.org/)
 - how to pass props in React-Router v6, thanks [stack overflow](https://stackoverflow.com/questions/70443591/how-to-pass-props-using-element-in-react-router-v6)
 - [using localStorage hooks](https://designcode.io/react-hooks-handbook-uselocalstorage-hook)
+- How to [navigate to a different component](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory) (vocabList) on form submission
 
 
 ### Splash Page
