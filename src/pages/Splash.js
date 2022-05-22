@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 export default function Splash() {
   return (
     <div>
-        <Navbar />
         <Header />
         <section className='splash-img-container'>
             <div className='img-container'>

@@ -23,6 +23,7 @@ FYI - I definitely used [this](https://www.freecodecamp.org/news/react-crud-app-
 - [freecodecamp crud blog](https://www.freecodecamp.org/news/react-crud-app-how-to-create-a-book-management-app-from-scratch/)
 - [react-router tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-routes)
 - bits and pieces from the [official React Documentation](https://reactjs.org/)
+- how to pass props in React-Router v6, thanks [stack overflow](https://stackoverflow.com/questions/70443591/how-to-pass-props-using-element-in-react-router-v6)
 
 
 ### Splash Page

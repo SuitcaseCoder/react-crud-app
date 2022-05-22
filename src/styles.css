@@ -28,7 +28,7 @@
     list-style-type: none;
     color: antiquewhite;
     text-decoration: none;
-
+    padding: 0 15px;
 }
 
 .navlinks:visited {

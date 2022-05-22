@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from './App';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import About from './pages/About';
-import BTS from './pages/BTS';
-import Dashboard from './pages/Dashboard';
-import Form from '../src/components/Form';
-import AddWord from './components/AddWord';
+import AppRouter from './router/AppRouter';
+// import About from './pages/About';
+// import BTS from './pages/BTS';
+// import Dashboard from './pages/Dashboard';
+// import Form from '../src/components/Form';
+// import AddWord from './components/AddWord';
+// import VocabList from './components/VocabList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <AppRouter />
+    {/* <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/about" element={<About />}></Route>
@@ -20,9 +23,9 @@ root.render(
       <Route path="/dashboard" element={<Dashboard />}></Route>
       <Route path="/form" element={<Form />}></Route>
       <Route path="/add-word" element={<AddWord />}></Route>
-      {/* <Route path="/form" element={<Form />}></Route> */}
+      <Route path="/vocablist" element={<VocabList />}></Route>
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
   </React.StrictMode>
 );
 
