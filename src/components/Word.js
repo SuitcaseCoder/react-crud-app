@@ -7,13 +7,14 @@ const Word = ({
     article,
     definition,
     sentence,
-    date
+    date,
+    handleDelete
 }) => {
 
     let navigate = useNavigate();
 
     const handleEdit = (id) => {
-        alert("edit clicked. id: ", id);
+        alert("edit clicked.");
         navigate(`/edit-word/${id}`)
 
     }
@@ -27,7 +28,7 @@ const Word = ({
                 <p>{sentence}</p>
             </div>
             <button onClick={() => {handleEdit(id)}}>edit</button>
-            <button>delete</button>
+            <button onClick={() => {handleDelete(id)}}>delete</button>
         </div>
     )
 }
