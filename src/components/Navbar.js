@@ -9,12 +9,17 @@ export default function Navbar() {
     <div className='nav-container'>
         <ul className='nav'>
             <div>
-              <NavLink to='/'><li>Logo</li></NavLink>
+              <NavLink to='/'><li className='navlinks'>Logo</li></NavLink>
             </div>
             <div>
-                <NavLink to='/about'><li>About Developer</li></NavLink>
-                <NavLink to='/behind-the-scenes'><li>Behind The Scenes</li></NavLink>
-                <NavLink to='/dashboard'><li>Vocabulary List</li></NavLink>
+                <NavLink to='/about'><li className='navlinks'>About Developer</li></NavLink>
+                <NavLink to='/behind-the-scenes'><li className='navlinks'>Behind The Scenes</li></NavLink>
+                <NavLink to='/dashboard'><li className='navlinks'>Vocabulary List</li></NavLink>
+                <NavLink to='/add-word'><li className='navlinks'>Add Word</li></NavLink>
+                <NavLink to='/form'><li className='navlinks'>Form</li></NavLink>
+                {/* <NavLink to='/dashboard'><li>Vocabulary List</li></NavLink> */}
+
+
             </div>
         </ul>
     </div>

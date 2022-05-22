@@ -23,8 +23,18 @@
     justify-content: space-around;    
 }
 
-.nav ul div li {
+
+.navlinks {
     list-style-type: none;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+.navlinks:visited {
+    list-style-type: none;
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 .nav-container {
@@ -33,6 +43,14 @@
     padding: 15px 0;
     color: antiquewhite;
 }
+
+.nav-container div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 
 
 /* HEADER */

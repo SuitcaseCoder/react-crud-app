@@ -3,11 +3,18 @@ import Form from "./Form";
 
 const AddWord = () => {
 
+    const handleSubmit = (word) => {
+        console.log(word);
+    }
+
     return (
-        <div>
-        <h2>Add Word</h2>
-            <Form />
-        </div>
+        <>
+            <Form handleSubmit={handleSubmit}/>
+        </>
+        // <div>
+        // <h2>Add Word</h2>
+        //     <Form handleSubmit={handleSubmit}/>
+        // </div>
 
     )
 }
