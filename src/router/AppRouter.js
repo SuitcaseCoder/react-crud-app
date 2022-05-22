@@ -10,6 +10,7 @@ import VocabList from '../components/VocabList';
 import Navbar from '../components/Navbar';
 import Splash from '../pages/Splash';
 import EditWord from '../components/EditWord';
+import Footer from '../components/Footer';
 
 const AppRouter = () => {
   const [words, setWords] = useLocalStorage('words', []);
@@ -39,6 +40,9 @@ const AppRouter = () => {
       ></Route>
     </Routes>
     </div>
+    </div>
+    <div>
+      <Footer />
     </div>
     </BrowserRouter>
     )

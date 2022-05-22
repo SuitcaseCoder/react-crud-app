@@ -17,7 +17,7 @@ const EditWord = ({words, setWords}) => {
 
     return (
         <div>
-            <Form word={wordToEdit} handleSubmit={handleSubmit}/>
+            <Form word={wordToEdit} handleSubmit={handleSubmit} formTitle='Edit Word'/>
         </div>
     )
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className='nav-container'>
         <ul className='nav'>
             <div>
-              <NavLink to='/'><li className='navlinks'>Logo</li></NavLink>
+              <NavLink to='/'><li className='navlinks'>Home</li></NavLink>
             </div>
             <div>
                 <NavLink to='/about'><li className='navlinks'>About</li></NavLink>

@@ -1,9 +1,17 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@800&family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
 /*  FLEX  */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    padding: 40px 0;
 }
 
 .flex-row {
@@ -32,6 +40,8 @@
     text-decoration: none;
     padding: 0 15px;
 }
+
+
 
 .navlinks:visited {
     list-style-type: none;
@@ -98,15 +108,25 @@ img{
 
 
 /*  FOOTER  */
+
 .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 45px 0 10px 0;
     color: #254d32; 
+    position: fixed;
+    bottom: 0;
+    /* padding-top: 150px; */
+    width: 100%;
 }
 
 .footer-text{
+    text-align: center;
     color: #254d32;
 }
+
 
 /* VOCAB LIST */
 .vocab-list {
@@ -125,4 +145,33 @@ img{
     padding: 15px;
     box-shadow: 8.0px 10.0px 10.0px hsl(0deg 0% 0% / 0.25);
     background-color: antiquewhite;
+}
+
+/*  ABOUT CONTAINER */
+.about-container {
+    justify-content: space-around;
+    padding: 40px 0;
+    margin: 60px 40px;
+    /* width: 250px; */
+}
+
+.about-container div {
+    margin: 0 auto;
+    padding: 0 45px;
+}
+
+.title {
+    color:#254d32;
+    font-size: 3em;
+    margin: 40px 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*  BUTTONS */
+button {
+    padding: 10px 25px;
+    margin: 0 10px;
+    background-color: #254d32;
+    color: antiquewhite;
 }

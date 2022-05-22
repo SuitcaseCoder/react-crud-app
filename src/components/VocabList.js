@@ -16,9 +16,9 @@ const VocabList = ({words, setWords}) => {
     }
 
     return (
-        <div className="flex-container">
-            <h2>Vocab List</h2>
-            <div className="vocab-list">
+        <div>
+            <h2 className="title">Vocab List</h2>
+            <div className="vocab-list flex-container">
             {words.map((word) => {
                 console.log(word);
                 return (

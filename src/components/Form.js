@@ -57,9 +57,9 @@ const Form = (props) => {
     }
 
     return (
-        <div>
-            <h2>Form</h2>
-            <form onSubmit={handleSubmit}>
+        <div className="flex-column">
+            <h2 className="title">{props.formTitle}</h2>
+            <form className="flex-container" onSubmit={handleSubmit}>
                 <label htmlFor="actualWord">VocabWord:</label>
                 <input type="text" name="actualWord" value={actualWord} placeholder="actualWord" onChange={handleInputChange}/>
                 

@@ -19,7 +19,7 @@ const AddWord = ({history, words, setWords}) => {
     return (
         <div>
         <>
-            <Form handleSubmit={handleSubmit}/>
+            <Form handleSubmit={handleSubmit} formTitle='Add Word'/>
         </>
         </div>
         // <div>
