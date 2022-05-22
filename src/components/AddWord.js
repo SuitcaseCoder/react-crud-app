@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Form from "./Form";
 import Navbar from "./Navbar";
 
-const AddWord = ({history, words, setWords}) => {
+const AddWord = ({words, setWords}) => {
     console.log(words);
     let navigate = useNavigate();
 
@@ -22,10 +22,6 @@ const AddWord = ({history, words, setWords}) => {
             <Form handleSubmit={handleSubmit} formTitle='Add Word'/>
         </>
         </div>
-        // <div>
-        // <h2>Add Word</h2>
-        //     <Form handleSubmit={handleSubmit}/>
-        // </div>
 
     )
 }
