@@ -2,6 +2,8 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 .flex-row {
@@ -104,4 +106,23 @@ img{
 
 .footer-text{
     color: #254d32;
+}
+
+/* VOCAB LIST */
+.vocab-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+    margin: 40px 0;
+}
+
+/*  CARD */
+.card {
+    width: 300px; 
+    margin: 25px 0;
+    padding: 15px;
+    box-shadow: 8.0px 10.0px 10.0px hsl(0deg 0% 0% / 0.25);
+    background-color: antiquewhite;
 }

@@ -19,8 +19,7 @@ const Word = ({
     }
 
     return (
-        <div>
-            <h2>Vocab Word:</h2>
+        <div className="card">
             <h3>{actualWord}</h3>
             <div>
                 <p>{article}</p>

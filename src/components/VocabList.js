@@ -4,8 +4,9 @@ import Word from "./Word";
 
 const VocabList = ({words, setWords}) => {
     return (
-        <div>
+        <div className="flex-container">
             <h2>Vocab List</h2>
+            <div className="vocab-list">
             {words.map((word) => {
                 console.log(word);
                 return (
@@ -19,6 +20,7 @@ const VocabList = ({words, setWords}) => {
                     />
                 )
             })}
+            </div>
         </div>
     )
 }
